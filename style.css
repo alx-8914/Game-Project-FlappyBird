@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("https://picsum.photos/900/600");
+    background-size: cover;
+}
+
+canvas {
+    border: 2px solid #000;
+    background: url(./assets/sprites/background.png);
+}
